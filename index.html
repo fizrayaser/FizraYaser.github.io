@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<canvas id="snow"></canvas>
+
+    
+<header class="navbar">
+  <div class="logo">Fizra Yaser</div>
+
+  <!-- Hamburger (Right side) -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="nav-links" id="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <div class="nav-email">
+    <a href="mailto:fizradev@gmail.com">fizradev@gmail.com</a>
+  </div>
+</header>
+
+
+
+    <!-- Hero Section -->
+     <section class="hero" id="home">
+    <div class="hero-left">
+<div class="dynamic-text-wrapper">
+    <span class="dynamic-text" id="dynamic-text"></span>
+</div>
+        <h1>Hi, I'm Fizra Yaser!</h1>
+        <p>I turn concepts into experiences that users love. Every project I take on is designed to be clear, engaging, and impactful—making sure your vision comes to life exactly as imagined.</p>
+
+        <div class="hero-buttons">
+            <a href="https://www.upwork.com/freelancers/~01d2542d2e6b7dda44" class="btn">Hire Me</a>
+            <a href="#projects" class="btn-outline">View Projects</a>
+        </div>
+
+            <div class="tagline" id="tagline">Designing . Developing . Innovating . Elevating</div> <!-- Animated tagline -->
+
+    </div>
+
+    <div class="hero-right">
+      <div class="social-icons">
+    <a href="https://dribbble.com/fizray" target="_blank" class="icon-circle">
+        <i class="fab fa-dribbble"></i>
+    </a>
+    <a href="https://www.behance.net/fizrayaser" target="_blank" class="icon-circle">
+        <i class="fab fa-behance"></i>
+    </a>
+   <a href="https://github.com/fizrayaser" target="_blank" class="icon-circle">
+    <i class='fab fa-github'></i>
+</a>
+
+    <a href="https://www.linkedin.com/in/fizrayaser/" target="_blank" class="icon-circle">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+      </div>
+
+        <img src="images/hero-image.png" alt="Your Image" id="hero-img">
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+    <div class="about-left">
+
+          <div class="about-img-container">
+            <img src="images/about-image.png" alt="About Me">
+        </div>
+      
+    </div>
+
+    <div class="about-right">
+        <h2>About Me</h2>
+        <p>
+            I’m Fizra Yaser, a passionate Front-End Developer with a love for creating immersive and interactive web experiences. 
+            I specialize in modern web design, responsive layouts, and sleek UI/UX design.
+        </p>
+
+        <div class="about-stats">
+            <div class="stat">
+                <span class="number">4+</span>
+                <span class="label">Years Experience</span>
+            </div>
+            <div class="stat">
+                <span class="number">30+</span>
+                <span class="label">Projects Completed</span>
+            </div>
+            <div class="stat">
+                <span class="number">35+</span>
+                <span class="label">Happy Clients</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+  <!-- Skills Section -->
+   <section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <p>Here are some of my expertise across development, design, tools, and soft skills:</p>
+
+  <div class="skills-container">
+    <!-- Programming / Development -->
+    <div class="skill-column">
+      <h3>Programming / Development</h3>
+      <ul>
+        <li>HTML5 – Semantic markup, accessibility</li>
+        <li>CSS3 – Flexbox, Grid, animations, responsive design</li>
+        <li>JavaScript – Vanilla JS, ES6+, DOM manipulation</li>
+        <li>React.js / Next.js – Component-based architecture, SPA development</li>
+        <li>TypeScript – Strong typing and maintainable code</li>
+        <li>API Integration – Fetch, Axios, REST APIs</li>
+        <li>Version Control – Git, GitHub</li>
+        <li>WordPress – Theme customization, plugins, Gutenberg blocks</li>
+      </ul>
+    </div>
+
+    <!-- Design / UI/UX -->
+    <div class="skill-column">
+      <h3>Design / UI/UX</h3>
+      <ul>
+        <li>Figma / Adobe XD – Wireframing, prototyping</li>
+        <li>Responsive Design – Mobile-first layouts, media queries</li>
+        <li>Animation & Interaction – Lottie animations, CSS transitions, scroll effects</li>
+        <li>Typography & Color Theory – Creating visually appealing designs</li>
+      </ul>
+    </div>
+
+    <!-- Tools / Workflow -->
+    <div class="skill-column">
+      <h3>Tools / Workflow</h3>
+      <ul>
+        <li>VS Code / WebStorm – Efficient coding environment</li>
+        <li>NPM / Yarn – Package management</li>
+        <li>Webpack / Vite – Bundling and performance optimization</li>
+        <li>Browser DevTools – Debugging and performance monitoring</li>
+        <li>Chrome Lighthouse – Page speed & SEO optimization</li>
+      </ul>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-column">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Problem-solving & debugging</li>
+        <li>Attention to detail & pixel-perfect design</li>
+        <li>Communication & collaboration</li>
+        <li>Time management & project delivery</li>
+      </ul>
+    </div>
+  </div>
+   </section>
+
+   <!-- Services Section -->
+   <section class="services" id="services">
+    <h2>My Services</h2>
+    <p class="services-intro">I provide modern, creative, and scalable digital solutions tailored to your needs.</p>
+
+    <div class="services-container">
+        <!-- Service 1 -->
+        <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Clean, optimized, and responsive websites using modern technologies like HTML, CSS, JavaScript, and React.js.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>UI / UX Design</h3>
+            <p>Intuitive, user-friendly, and visually appealing interfaces designed in Figma & Adobe XD for seamless experiences.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+            <i class="fab fa-wordpress"></i>
+            <h3>WordPress Solutions</h3>
+            <p>Custom WordPress websites, theme customization, and plugin integration with performance optimization.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+            <i class="fas fa-bullhorn"></i>
+            <h3>App Development</h3>
+      <p>Creating cross-platform mobile apps with smooth performance, clean UI, and user-friendly features tailored to client needs.</p>
+        </div>
+    </div>
+   </section>
+
+   <!-- Projects Section -->
+   <section class="projects" id="projects">
+  <h2>My Projects</h2>
+  <p class="projects-intro">Browse my work across different categories.</p>
+
+  <!-- Filter Tabs -->
+  <div class="project-tabs">
+    <button class="tab active" data-filter="all">All</button>
+    <button class="tab" data-filter="wordpress">WordPress</button>
+    <button class="tab" data-filter="websites">Websites</button>
+    <button class="tab" data-filter="apps">Apps</button>
+    <button class="tab" data-filter="uiux">UI/UX</button>
+  </div>
+
+  <!-- Projects Grid -->
+  <div class="projects-grid">
+
+    <!-- Wordpress Projects-->
+    <div class="project-card" data-category="wordpress">
+
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1124782300?h=4b8a8c57c3">
+        <img src="images/zillo-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Zillo</h3>
+        <p>A platform championing “ventures that do more than scale” by building ecosystems through automated systems and meta-businesses</p>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card" data-category="wordpress">
+        
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1124856405"
+>
+        <img src="images/million-secret-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Million Secret</h3>
+        <p>Million Secret offers a digital storefront of wealth-building tools—templates, prompts, automation kits—aimed at helping users monetize ideas quickly.</p>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+
+   <div class="project-card" data-category="wordpress">
+        
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1124859864
+">
+        <img src="images/al-wakeel-institude-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Al Wakeel Institude</h3>
+        <p>Al-Wakeel Institute of Law is a Pakistani legal education institute offering LLB, admission test prep, and career development services.</p>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-category="wordpress">
+        
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1124967909">
+        <img src="images/A3k-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>A3K</h3>
+        <p>A site for A3K, presenting itself as a “Global Decentralized Network” that synthesizes technology, policy, and society to map future civilizations.</p>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+
+     <div class="project-card" data-category="wordpress">
+        
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1124994002
+">
+        <img src="images/bella's kitchen-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Bella's Kitchen</h3>
+        <p>“Bella’s Kitchen” — is a food & recipe blog sharing culinary tips, dishes, and cooking tutorials across cuisines.</p>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+
+     <div class="project-card" data-category="wordpress">
+        
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1124995430
+">
+        <img src="images/siam-sensation-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Siam Sensation</h3>
+        <p>Siam Sensations Thai is a Thai cuisine restaurant in Nundah (Australia), offering takeaway and online ordering</p>
+        <div class="project-tags">
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+
+ <!-- UX/UI Design Project (Image Popup) -->
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/NeuroFit Splash Screen.png">
+    <img src="images/NeuroFit Splash Screen.png" alt="NeuroFit Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>NeuroFit Splash Screen</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/dark version.png">
+    <img src="images/dark version.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Light/Dark Splash Screen</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Medical App.png">
+    <img src="images/Medical App.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>DocCare App</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/book app.png">
+    <img src="images/book app.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Ebook App</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Dribbble shot HD - 1.png">
+    <img src="images/Dribbble shot HD - 1.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3> Ui Design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Dribbble shot HD - 1 (1).png">
+    <img src="images/Dribbble shot HD - 1 (1).png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Landing page Ui design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/weather ap.png">
+    <img src="images/weather ap.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Landing page Ui design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Desktop - 1.pngg">
+    <img src="images/Desktop - 1.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Landing page Ui design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Dunkin donuts landing page.png">
+    <img src="images/Dunkin donuts landing page.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Landing page Ui design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Dribbble shot HD - 1 (3).png">
+    <img src="images/Dribbble shot HD - 1 (3).png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Landing page Ui design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Dribbble shot HD - 1 (4).png">
+    <img src="images/Dribbble shot HD - 1 (4).png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>LMS UI design</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Frame 14.png">
+    <img src="images/Frame 14.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Plant Identifier app</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-category="uiux">
+  <div class="project-thumb" data-image="images/Frame 3.png">
+    <img src="images/Frame 3.png" alt="Dark Version Splash Screen">
+    <div class="play-icon">🔍</div>
+  </div>
+
+  <div class="project-info">
+    <h3>Neumorphism App Ui</h3>
+    <p>Rewire your body and mind with NeuroFit — where fitness meets focus.
+    Train smarter, move stronger, and evolve every day.</p>
+    <div class="project-tags">
+      <span class="tag">UI/UX</span>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Flutter Projects-->
+    <div class="project-card" data-category="apps">
+
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1125171708
+">
+        <img src="images/nike app thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Nike App Ui</h3>
+        <p>A platform championing “ventures that do more than scale” by building ecosystems through automated systems and meta-businesses</p>
+        <div class="project-tags">
+          <span class="tag">Apps</span>
+        </div>
+      </div>
+    </div>
+    
+      <div class="project-card" data-category="apps">
+
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1125174739
+
+">
+        <img src="images/app-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Dark/Light App Ui</h3>
+        <p>A platform championing “ventures that do more than scale” by building ecosystems through automated systems and meta-businesses</p>
+        <div class="project-tags">
+          <span class="tag">Apps</span>
+        </div>
+      </div>
+    </div>
+    
+        <div class="project-card" data-category="apps">
+
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1125176449">
+        <img src="images/sushi-app-thumbnail.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Sushi App Ui</h3>
+        <p>A platform championing “ventures that do more than scale” by building ecosystems through automated systems and meta-businesses</p>
+        <div class="project-tags">
+          <span class="tag">Apps</span>
+        </div>
+      </div>
+    </div>
+    
+      <div class="project-card" data-category="apps">
+
+      <div class="project-thumb" data-video="https://player.vimeo.com/video/1125177896
+">
+        <img src="images/weather-app-thumbnai.png" alt="Zillo Project Thumbnail">
+        <div class="play-icon">▶</div>
+      </div>
+
+      <div class="project-info">
+        <h3>Weather App Ui</h3>
+        <p>A platform championing “ventures that do more than scale” by building ecosystems through automated systems and meta-businesses</p>
+        <div class="project-tags">
+          <span class="tag">Apps</span>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+   </section>
+
+<!-- Popup Modal -->
+<div class="video-modal" id="video-modal">
+  <div class="video-modal-content">
+    <span class="close-modal">&times;</span>
+    <iframe id="video-frame" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+<!-- Image Popup Modal -->
+<div class="image-modal" id="image-modal">
+  <div class="image-modal-content">
+    <span class="close-modal">&times;</span>
+    <img id="popup-image" src="" alt="Project Image">
+  </div>
+</div>
+
+ 
+   <!-- Footer -->
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>© 2025 Fizra Yaser. All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/fizrayaser/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/fizrayaser"><i class="fab fa-github"></i></a>
+      <a href="https://dribbble.com/fizray"><i class="fab fa-dribbble"></i></a>
+      <a href="https://www.behance.net/fizrayaser"><i class="fab fa-behance"></i></a>
+    </div>
+  </div>
+  </footer>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
